@@ -22,5 +22,6 @@ public class Main {
         boolean isEligibleForGift = points >= 100;
 
 
+
     }
 }
