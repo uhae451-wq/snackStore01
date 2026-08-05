@@ -18,5 +18,9 @@ public class Main {
             total -= (int) (total * 0.1);
         }
 
+        int points = (int) (total * 0.05);
+        boolean isEligibleForGift = points >= 100;
+
+
     }
 }
