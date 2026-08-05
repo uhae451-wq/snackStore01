@@ -12,5 +12,11 @@ public class Main {
         // 미션 A
         int total = price * quantity;
 
+        // 미션 B
+        boolean isDiscountTarget = isMember || quantity >= 5;
+        if (isDiscountTarget) {
+            total -= (int) (total * 0.1);
+        }
+
     }
 }
