@@ -21,6 +21,7 @@ public class Main {
         boolean isEligibleForGift = points >= 100;
 
         // 미션 D
+        int cash = 10000;
         int change = cash - total;
         System.out.println("" +
                 customerName + "님의 영수증\n" +
