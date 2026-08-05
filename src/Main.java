@@ -9,5 +9,8 @@ public class Main {
         boolean isMember = false;
         int cash = 10000;
 
+        // 미션 A
+        int total = price * quantity;
+
     }
 }
